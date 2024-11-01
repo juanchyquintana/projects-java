@@ -19,5 +19,8 @@ public class App {
         System.out.println(perro.hacerSonido());
         System.out.println("El gato llamado " + gato.nombre + " hace: ");
         System.out.println(gato.hacerSonido());
+
+        System.out.println("El total de los animales creador son: " + Animal.getCantidadAnimales());
+        System.out.println("Yo atiendo en la veterinaria: " + Veterinaria.nombre);
     }
 }
